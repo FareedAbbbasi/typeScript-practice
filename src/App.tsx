@@ -1,10 +1,10 @@
 import './App.css'
-import Button from './Button'
+import Home from './Home'
 
 function App() {
   return (
     <div>
-      <Button backgroundColor="red"/>
+      <Home name="Khan" age={50}/>
     </div>
   )
 }
